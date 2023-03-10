@@ -60,3 +60,24 @@ for (let key in marks) {
     console.log("the marks of " +  key + " is " + marks[ key]);
 }
 
+let g1 = "shira"
+let g2 = "shora"
+
+let sentence = `${g1} is frnd of ${g2}`
+console.log(sentence);
+
+
+let arr = [551, 278, 3, 5, 78, 43, 21, 377]
+arr.sort()
+console.log(arr);
+
+let compare = (a,b)=>{
+   return b-a
+}
+console.log(arr.sort(compare))
+
+let array = [2,4,54,6]
+
+array.forEach((element) => {
+    console.log(element*element);
+})
