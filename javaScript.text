@@ -5,6 +5,7 @@
 // ECMAScript --> ?
 
 // Datatypes --> number, null, boolean, BigInt, String, symbol, undefined   // nn bb ss u , user-defined --> objects
+// Number.parseInt()
 
 === --> equal value and type
 !== --> not equal value and not equal type
@@ -31,4 +32,23 @@ const _function_name_ =() =>{
 }
 
 template literal :
-backtick --> `inke andr ${var1}, ${var2} ase sentence bna k print krwa skte h`
+backtick --> `inke andr ${var1}, ${var2} ase sentence bna k print krwa skte h` --> this is also called string interpolation
+
+escape sequence --> \n --> counts as one character 
+String function --> name.length --> y syd property h, name.toUpperCase(), name.toLowerCase(), name.slice(2,4), name.replace("bhai", "BHAI")
+                    name.concate("hello" , b, a), name.trim --> removes the beginning and trailing spaces, name.startswith, name[0], name[2]
+
+a.includes(word) --> checks whether the word is present in string a or not --> returns true or false
+
+String are immutable while arrays are mutable
+
+Arrays methods --> Arrays.toString(), Arrays.join("_"), Arrays.pop(), Arrays.push(2) --> add element to the last and returns new length of arrays
+                   Arrays.shift() --> removes first element and return and original array is modified, Arrays.Unshift(28), delete Arrays[0] -->
+                   delete 0th index element and delete is operator not a method and array's length does not get affected,
+                   let newArray = Arrays.concate(arrayExtended, arrymore) --> el se jyda arrays ko bhi kr skte h, array.sort() --> sort array 
+                   alphabetically and original array is modified, array.reverse()
+                   Arrays.splice(2, 3, 12, 12, 12) --> thoda bda h ..net pr dekh le, Arrays.slice(a,b)
+
+                   pop/push and shift/Unshift are similar but the former one work at end and later one on start
+
+forEach loops in functions
