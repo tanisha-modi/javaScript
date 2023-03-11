@@ -112,3 +112,25 @@ console.log(red);
 let i 
 i = 20
 console.log(i)
+
+
+
+// let count = 0
+// let num = Math.floor(Math.random()* 100)    //// Returns a random integer from 0 to 99
+// let value
+// value = prompt("guess the number between 0 to 100 ")
+
+// do {
+//     if (num > value) {
+//         console.log("number is greater");
+//     } else {
+//         console.log("number is smaller");
+//     }
+//         count++
+//         value = prompt("try again")
+// } while (num!= value);
+
+// console.log("you guessed the corrent Number : " + num)
+// console.log("your score : " , 100 - count );
+
+console.table(marks)
