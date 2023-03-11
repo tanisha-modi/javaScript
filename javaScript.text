@@ -51,4 +51,12 @@ Arrays methods --> Arrays.toString(), Arrays.join("_"), Arrays.pop(), Arrays.pus
 
                    pop/push and shift/Unshift are similar but the former one work at end and later one on start
 
-forEach loops in functions
+forEach loops in functions, for in --> index(key), for of --> value
+
+higher order Arrays --> Map, Filter and Reduce 
+- map --> new array create krta h,  --> when we want to create new array
+- for each new array create nhi krta  --> when we need to perform some operation on existing array only
+- filter --> it also creates new array and can also filter through any conditions
+- all above functions does not modify the original array
+
+- reduce method --> reduces an array to a single value, while filter and map returns an array and forEach return nothing
