@@ -53,10 +53,33 @@ Arrays methods --> Arrays.toString(), Arrays.join("_"), Arrays.pop(), Arrays.pus
 
 forEach loops in functions, for in --> index(key), for of --> value
 
-higher order Arrays --> Map, Filter and Reduce 
+higher order Arrays --> Map, Filter and Reduce :
+
 - map --> new array create krta h,  --> when we want to create new array
 - for each new array create nhi krta  --> when we need to perform some operation on existing array only
 - filter --> it also creates new array and can also filter through any conditions
 - all above functions does not modify the original array
 
 - reduce method --> reduces an array to a single value, while filter and map returns an array and forEach return nothing
+
+
+console methods --> console.log(console), console.error("this is error"), console.assert(55>3) --> if the condition is false, gives error
+                    console.clear(), console.table(obj) --> display obj in form of table, console.warn("warning dega"), console.info("info")
+                    console.time("a"), console.timeEnd("a") --> gives the time to execute part of code 
+
+
+- alert, confirm and prompt  --> 
+ -alert --> to show alert msg to the user.
+ -confirm --> to ask a ques to the user, ans will be whether yes or no 
+ -prompt --> to take string input
+
+ -they have some sure limitations like pause user interaction, browser pr depend krega
+  alert box kaha se appear ho rha h(exact location of model), jyda modify nhi kr skte inko 
+
+ -----------------------------------------------------
+ window is a global object
+ BOM --> browser object model  (additional objects provided by host environment)
+ DOM --> Document object Model(pure html page ko js object bnaakr usko document naam de diya)
+          --> document.body --> page body as js object 
+          --> document.body.style.background = "red"
+ javaScript Core --> 
