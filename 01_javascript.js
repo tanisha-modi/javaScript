@@ -108,3 +108,7 @@ const reduce_func = (h1, h2)=>{
 }
 let red = array.reduce(reduce_func)
 console.log(red);
+
+let i 
+i = 20
+console.log(i)
