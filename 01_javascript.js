@@ -78,6 +78,33 @@ console.log(arr.sort(compare))
 
 let array = [2,4,54,6]
 
-array.forEach((element) => {
+array.forEach((element) => {        // does not make new array 
     console.log(element*element);
 })
+
+let ar = array.map((value, index, array)=>{      // creates new array
+    console.log(value, index, array);
+    return value +2
+})
+console.log(ar);
+
+let ar2 = array.filter((value)=>{
+    return value > 50;
+})
+console.log(ar2);
+
+console.log(array)   // map, forEach, filter does not modify original array
+
+// Array reduce method 
+let a3 = array.reduce((h1, h2)=>{
+    return h1 + h2
+})
+console.log(a3);
+console.log("hell");
+
+// the above function can be also written as 
+const reduce_func = (h1, h2)=>{
+    return h1 + h2;
+}
+let red = array.reduce(reduce_func)
+console.log(red);
