@@ -14,7 +14,7 @@
 // console.log(document.body)
 // console.log(document.body.style.background = "yellow")
 
-// fetching weather details
+// fetching weather details 
 
 setInterval( async function(){
     let url ="https://jsonplaceholder.typicode.com/todos/1";
