@@ -133,4 +133,4 @@ console.log(i)
 // console.log("you guessed the corrent Number : " + num)
 // console.log("your score : " , 100 - count );
 
-console.table(marks)
+console.table(marks) 
