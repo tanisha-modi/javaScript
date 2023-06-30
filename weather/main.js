@@ -6,4 +6,4 @@ p.then((response) => {
     return response.json()
 }).then((value2) => {
     console.log(value2)
-})
+}) 
