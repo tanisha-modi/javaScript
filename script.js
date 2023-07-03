@@ -10,6 +10,13 @@
 //     document.write("please allow me to write")
 // }
 
-window.console.log(window)
-console.log(document.body)
-console.log(document.body.style.background = "yellow")
+// window.console.log(window)
+// console.log(document.body)
+// console.log(document.body.style.background = "yellow")
+
+// fetching weather details
+
+setInterval( async function(){
+    let url ="https://jsonplaceholder.typicode.com/todos/1";
+     console.log(await fetch(url));
+}, 3000) 
