@@ -4,7 +4,7 @@ class Password{
         this.pass = ""
     }
     generatePassword(len){
-        let chars = "abcdefghijklmnopqrstuvwxyz"
+        let chars = "abcdefghijklmnopqrstuvwxyz" 
         let nums = "1234567890"
         let special = "!@#$%^&*()_+?~*" 
         if (len < 3) {
