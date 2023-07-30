@@ -6,7 +6,7 @@ class Password{
     generatePassword(len){
         let chars = "abcdefghijklmnopqrstuvwxyz"
         let nums = "1234567890"
-        let special = "!@#$%^&*()_+?~*"
+        let special = "!@#$%^&*()_+?~*" 
         if (len < 3) {
             console.log("Your password should be atleast 3 characters long")
         }
