@@ -1,6 +1,7 @@
 let curTime = document.querySelector(".timeContainer h1");
 let curDate = document.querySelector(".timeContainer h2");
 let setAlarmBtn = document.querySelector("#setAlarmBtn");
+let stopBtn = document.querySelector("#stop");
 let setAlarmAt = document.querySelector("#setAlarmAt");
 let audio = new Audio("download.mp3");
 
@@ -19,20 +20,17 @@ setAlarmBtn.addEventListener("click", function () {
   if (val1 === undefined || val2 === undefined) {
     alert("please set the time first");
   } else {
-    console.log(val1);
-    console.log(val2);
-
     sessionStorage.setItem("hour", val1);
     sessionStorage.setItem("mint", val2);
     setAlarmBtn.style.display = "none";
-    document.getElementById("stop").style.display = "block";
+    stopBtn.style.display = "block";
     playAlarm();
   }
 });
 
 function playAlarm() {
   var k = setInterval(() => {
-    document.getElementById("stop").addEventListener("click", () => {
+    stopBtn.addEventListener("click", () => {
       clearInterval(k);
       console.log("cleared");
     });
@@ -47,13 +45,11 @@ function playAlarm() {
   }, 1000);
 }
 
-let stopper = document.getElementById("stop");
-stopper.addEventListener("click", () => {
+stopBtn.addEventListener("click", () => {
   sessionStorage.setItem("hour", "#");
   sessionStorage.setItem("mint", "#");
   audio.pause();
 
-  document.getElementById("stop").style.display = "none";
+  stopBtn.style.display = "none";
   setAlarmBtn.style.display = "block";
-  //   document.getElementById(" ").innerHTML = "Set Alarm";
 });
