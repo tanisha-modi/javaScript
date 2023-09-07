@@ -14,7 +14,7 @@ class Password{
             let i = 0;
             while(i<len){
                 this.pass += chars[Math.floor(Math.random()*chars.length)]
-                // i++;
+                // i++; 
                 // if(i >= len){
                 //     break;
                 // }
