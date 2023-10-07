@@ -182,7 +182,7 @@ let myjokes = [
       "flags": {
         "nsfw": false,
         "religious": false,
-        "political": false,
+        "political": false, 
         "racist": false,
         "sexist": false,
         "explicit": false
